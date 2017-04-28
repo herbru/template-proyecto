@@ -1,0 +1,68 @@
+/* Escritorio*/
+	@media (min-width: 1200px) {
+		#donar{
+			margin-left: 25%;
+		}
+
+		#eventoH2{
+			margin-right: 25%;
+		}
+	}
+
+	@media (min-width: 980px) and (max-width: 1199px) {
+
+		#donar{
+			margin-left: 25%;
+		}
+
+		#eventoH2{
+			margin-right: 25%;
+		}
+	}
+
+	/* Escritorio chiquito o tablet*/
+
+	@media (min-width: 768px) and (max-width: 979px){
+
+		#donar{
+			margin-left: 25%;
+		}
+
+		#eventoH2{
+			margin-right: 25%;
+		}
+	}	
+
+	/* Tablet o smartphone*/
+	@media (max-width: 767px) {
+
+		#donar{
+			margin-left: 15%;
+		}
+
+		#eventoH2{
+			margin-right: 15%;
+		}
+	}
+
+	/* Smartphone*/
+	@media (max-width: 480px) {
+
+				#donar{
+			margin-left: 0%;
+		}
+
+		#eventoH2{
+			margin-right: 0%;
+		}
+	}
+
+		@media (max-width: 320px) {
+
+				#donar{
+			margin-left: 0%;
+		}
+
+		#eventoH2{
+			margin-right: 0%;
+		}

@@ -1,0 +1,234 @@
+html{
+	background-color: #DBD7AE;
+}
+
+/* Escritorio*/
+@media (min-width: 1200px) {
+	#divconfeti{
+		margin-top: 80px;
+		background-color: white;
+		overflow: scroll;
+		height: 400px;
+	}
+	#txtdireccion {
+	    margin-left: 3%;
+	}
+	#mapa1{
+		padding-left: 5px;
+	}
+
+		#mobileConfeti{
+		display: none;
+	}
+
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	#divconfeti{
+		margin-top: 80px;
+		background-color: white;
+		overflow: scroll;
+		height: 350px;
+	}
+		#txtdireccion {
+	    margin-left: 3%;
+	}
+	#mapa1{
+		max-width: 108%;
+	}
+		#mobileConfeti{
+		display: none;
+	}
+}
+
+/* Escritorio chiquito o tablet*/
+@media (min-width: 768px) and (max-width: 979px){
+	#divconfeti{
+		margin-top: 80px;
+		background-color: white;
+		overflow: scroll;
+		height: 350px;
+	}
+
+	#sacodiv{
+		display: none;
+	}
+
+	#txtdireccion{
+		width: 380px;
+		margin-left: 3%;
+	}
+	#mapa1{
+		max-width: 375px;
+	}
+
+	#mobileConfeti{
+		display: none;
+	}
+}
+
+/* Tablet o smartphone*/
+@media (max-width: 767px) and (min-width: 562px) {
+	#divconfeti{
+		margin-top: 51px;
+		background-color: white;
+		overflow: scroll;
+		height: 250px;
+	}
+	#mapa{
+		display: none;
+	}
+
+	#txtdireccion{
+		margin-left: 0px;
+	}
+	#mapa1{
+		max-width: 375px;
+	}
+
+		#desckConfeti{
+		display: none;
+	}
+	/*#divtxtDescripcion{
+		margin-left: 18%;
+		width: 400px;
+	}
+	
+	#txtdireccion{
+		margin-left: 18%;
+		width: 400px;
+	}*/
+}
+@media (max-width: 561px) and (min-width: 481px){
+	#divconfeti{
+		margin-top: 51px;
+		background-color: white;
+		overflow: scroll;
+		height: 250px;
+	}
+
+	#desckConfeti{
+		display: none;
+	}
+		#mapa{
+		display: none;
+	}
+}
+
+/* Smartphone*/
+@media (max-width: 480px) {
+	#divconfeti{
+		margin-top: 51px;
+		background-color: white;
+		overflow: scroll;
+		height: 200px;
+	}
+	#mapa{
+		display: none;
+	}
+
+	#desckConfeti{
+		display: none;
+	}
+	/*#divtxtDescripcion{
+		margin-left: 0px;
+		width: 300px;
+	}
+	#txtdireccion{
+		margin-left: -45px;
+		width: 300px;
+	}*/
+
+
+}
+@media (max-width: 298px) {
+	#divtxtDescripcion{
+		width: 150px;
+	}
+
+	#mapa{
+		display: none;
+	}
+
+	#txtdireccion{
+		width: 150px;
+	}
+	#divconfeti{
+		background-color: white;
+		overflow: scroll;
+		height: 200px;
+	}
+
+}
+
+#mainNav{
+	background-color: black;
+}
+
+#logousuario{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: 8px;
+}
+
+#imgconfeti{
+	min-width: 60px;
+	min-height: 50px;
+}
+
+#barra{
+	border: 1px solid black;
+	min-width: 50px;
+	height:400px;
+}
+
+#botondonar{
+	background-color: #fed136; 
+	border-radius: 2px; 
+	margin-top: 65px; 
+	width: 150px; 
+	height: 55px; 
+	font-family: Montserrat; 
+	letter-spacing: 1px; 
+	color: white;
+}
+
+#eventoH2{
+	font-family: Montserrat; 
+	margin-top: 80px;
+}
+
+#divtxtDescripcion{
+	background-color: #BDB76B; 
+	border-radius: 6px; 
+	margin-top: 50px;
+}
+
+#txtDescripcion{
+	font-family: Montserrat; 
+	padding: 2px; 
+	margin-top: 3px;
+}
+
+#mapa{
+	margin-top: 50px;
+	padding-left: 7%;
+}
+
+#txtdireccion{
+	background-color: grey;
+	margin-top: 10px;
+	border-radius: 6px;
+}
+
+#fotoIzquierda{
+	position: relative;
+	left: 110%;
+	height: 100%;
+	transform: rotate(180deg);
+}
+
+#mobileConfeti{
+	overflow: scroll;
+}
